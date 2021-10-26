@@ -15,10 +15,6 @@ function App() {
     var config = {
       method: 'post',
       url: 'https://login.microsoftonline.com/6d56f056-48d8-4e5a-a528-0e2df50d29ac/oauth2/token',
-      headers: { 
-        'Content-Type': 'application/x-www-form-urlencoded', 
-        'Access-Control-Allow-Origin':' true',
-      },
       data : data
     };
     Axios(config)
